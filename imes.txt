@@ -1,0 +1,2549 @@
+﻿#international message file
+#imessage v1.0 by Bombo is needed
+#
+#Supported languages: "ru","en","fr","uk","es","cs","de","it","pl","tr","sr","bg","ro","az","be","ca","da","el","et","fi","hr","hu","hy","lt","lv","mk","nl","no","pt","sk","sl","sq","sv"
+#
+#Format of the name: "\n[MESSAGE_NAME]\n", where MESSAGE_NAME is latin only
+#Format of the language: "\nxx {", xx - language code, contains 2 latin characters only
+#Format of the end of string: "};\n", no spaces between caracters
+#In the end of file: "\n\n", message lost is possible in other case (!)
+#
+#Encoding: UTF8
+#New line: Unix
+#
+#File size is unlimited.
+#Location: program root
+#
+#Поддерживаемые языки: "ru","en","fr","uk","es","cs","de","it","pl","tr","sr","bg","ro","az","be","ca","da","el","et","fi","hr","hu","hy","lt","lv","mk","nl","no","pt","sk","sl","sq","sv"
+#
+#Формат имени сообщения: "\n[MESSAGE_NAME]\n", имя сообщения всегда латинскими буквами
+#Формат задания языка: "\nxx {", где xx - обозначение языка, всегда 2 латинских символа
+#Формат конца строчки: "};\n", все три символа должны быть рядом
+#В конце файла обязательно: "\n\n" (!), иначе потеряется последнее сообщение
+#
+#Кодировка файла: UTF8
+#Конец строки: Unix
+#
+#Файл практически не имеет ограничения по объёму.
+#Расположение: в одной директории с samp03svr
+
+
+[LAST_CHAT_MESSAGES]
+ru {Последние сообщения чата:};
+en {Last chat messages:};
+
+
+[ROCKET_OBJECT]
+ru {{8888FF}Ракета};
+en {{8888FF}Rocket};
+
+[ROCKET_OBJECT_VALUE]
+ru {{00FF00}%d{FFFFFF} шт.};
+en {{FFFFFF}Count: {00FF00}%d};
+
+[ROCKET_OBJECT_ABOUT]
+ru {{FFCC00}Можно подвесить на гидру};
+en {{FFCC00}You can install it on a Hydra};
+
+
+[PROPAN_OBJECT]
+ru {{FF0000}Азот};
+en {{FF0000}Nitro gas};
+[PROPAN_OBJECT_VALUE]
+ru {{FFFFFF}Литров: {00FF00}%d};
+en {{FFFFFF}Valume: {00FF00}%d{FFFFFF} L};
+[PROPAN_OBJECT_ABOUT]
+ru {{FFCC00}Можно заправить азотный ускоритель авто};
+en {{FFCC00}You can load auto nitro};
+
+
+[NITRO_OBJECT]
+ru {{FF0000}Азотный ускоритель};
+en {{FF0000}Auto nitro};
+[NITRO_OBJECT_VALUE]
+ru {{FFFFFF}Литров: {00FF00}%d};
+en {{FFFFFF}Valume: {00FF00}%d{FFFFFF} L};
+[NITRO_OBJECT_ABOUT]
+ru {{FFCC00}Можно установить в авто};
+en {{FFCC00}You can install it in your auto};
+
+[NO_NITRO_IN_OBJECT]
+ru {Нет закиси азота в ускорителе.};
+en {No nitro in object.};
+
+[BOMB_OBJECT]
+ru {{8888FF}Авиабомба};
+en {{8888FF}Bomb};
+[BOMB_OBJECT_VALUE]
+ru {{00FF00}%d{FFFFFF} шт.};
+en {{FFFFFF}Count: {00FF00}%d};
+[BOMB_OBJECT_ABOUT]
+ru {{FFCC00}Можно подвесить на гидру};
+en {{FFCC00}You can install it on a Hydra};
+
+[VAN_VEHICLE]
+en {{FF0000}Van};
+ru {{FF0000}Фургончик};
+[VAN_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+[VAN_VEHICLE_ABOUT]
+en {{FFCC00}The best!};
+ru {{FFCC00}Мечта!};
+
+
+[JEEP_VEHICLE]
+en {{FF0000}Jeep};
+ru {{FF0000}Внедорожник};
+
+[JEEP_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[JEEP_VEHICLE_ABOUT]
+en {{FFCC00}Good vehicle!};
+ru {{FFCC00}Немного прожорлив, да и объём бака небольшой. А в целом - прекрасное авто!};
+
+
+[BICYCLE_VEHICLE]
+en {{FF0000}Bike};
+ru {{FF0000}Велосипед};
+
+[BICYCLE_VEHICLE_VALUE]
+en {{FFFFFF}Engine presence: {00FF00}%d};
+ru {{FFFFFF}Двигателей: {00FF00}%d};
+
+[BICYCLE_VEHICLE_ABOUT]
+en {{FFCC00}Cool shit!};
+ru {{FFCC00}То что надо!};
+
+
+[VAZ_2102]
+en {{FF0000}Car};
+ru {{FF0000}Универсал};
+
+[VAZ_2102_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[VAZ_2102_ABOUT]
+en {{FFCC00}Vehicle..};
+ru {{FFCC00}Очень прожорлив и объём бака небольшой.};
+
+
+[VW_GOLF]
+en {{FF0000}Golf};
+ru {{FF0000}Гольф};
+
+[VW_GOLF_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[VW_GOLF_ABOUT]
+en {{FFCC00}Very good vehicle!};
+ru {{FFCC00}Отличная машинка!};
+
+
+[QUADRO_CYCLE]
+en {{FF0000}Quadro};
+ru {{FF0000}Квадроцикл};
+
+[QUADRO_CYCLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[QUADRO_CYCLE_ABOUT]
+en {{FFCC00}Not bad vehicle!};
+ru {{FFCC00}Хорошая машинка. Двигатель вечный, но очень прожорливый!};
+
+
+[GOOD_BIKE]
+en {{FF0000}Bike};
+ru {{FF0000}Мотоцикл};
+
+[GOOD_BIKE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[GOOD_BIKE_ABOUT]
+en {{FFCC00}Not bad bike!};
+ru {{FFCC00}Хороший мотоцикл!};
+
+
+[MEGA_BIKE]
+en {{FF0000}Tourist bike};
+ru {{FF0000}Туристический мотоцикл};
+
+[MEGA_BIKE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[MEGA_BIKE_ABOUT]
+en {{FFCC00}Good bike!};
+ru {{FFCC00}Превосходный мотоцикл с большим багажником!};
+
+
+[CHOPPER_BIKE]
+en {{FF0000}Chopper};
+ru {{FF0000}Дадына};
+
+[CHOPPER_BIKE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[CHOPPER_BIKE_ABOUT]
+en {{FFCC00}Nice bike!};
+ru {{FFCC00}Отличный мотоцикл!};
+
+
+[MOTO_BIKE]
+en {{FF0000}Bike};
+ru {{FF0000}Мотоцикл};
+
+[MOTO_BIKE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[MOTO_BIKE_ABOUT]
+en {{FFCC00}Very nice bike!};
+ru {{FFCC00}Большой объём бака! Небольшой расход топлива. Прекрасный мотоцикл!};
+
+
+[VOLGA_VEHICLE]
+en {{FF0000}Volga};
+ru {{FF0000}Волга};
+
+[VOLGA_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[VOLGA_VEHICLE_ABOUT]
+en {{FFCC00}Nice vehicle!};
+ru {{FFCC00}Отличная машинка, но прожорливая.};
+
+
+[PICKUP_VEHICLE]
+en {{FF0000}Pickup};
+ru {{FF0000}Пикап};
+
+[PICKUP_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[PICKUP_VEHICLE_ABOUT]
+en {{FFCC00}Very good vehicle!};
+ru {{FFCC00}Большой объём бака. Прекрасное авто!};
+
+
+[OLD_PICKUP_VEHICLE]
+en {{FF0000}Old pickup};
+ru {{FF0000}Старый пикап};
+
+[OLD_PICKUP_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[OLD_PICKUP_VEHICLE_ABOUT]
+en {{FFCC00}Old vehicle.};
+ru {{FFCC00}Маленький объём бака. Старое авто...};
+
+
+[MINIVAN_VEHICLE]
+en {{FF0000}Minivan};
+ru {{FF0000}Микроавтобус};
+
+[MINIVAN_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[MINIVAN_VEHICLE_ABOUT]
+en {{FFCC00}Nice big vehicle.};
+ru {{FFCC00}Приличный объём бака. Вместительное авто.};
+
+
+[CARAVAN_VEHICLE]
+en {{FF0000}Caravan};
+ru {{FF0000}Фургон};
+
+[CARAVAN_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[CARAVAN_VEHICLE_ABOUT]
+en {{FFCC00}Not bad vehicle.};
+ru {{FFCC00}Небольшой объём бака. Приличное авто.};
+
+
+[BUS_VEHICLE]
+en {{FF0000}Bus};
+ru {{FF0000}Автобус};
+
+[BUS_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[BUS_VEHICLE_ABOUT]
+en {{FFCC00}Big vehicle.};
+ru {{FFCC00}Большой объём бака. Прожорливый. Вместительный.};
+
+
+[YAGO_VEHICLE]
+en {{FF0000}Jeep};
+ru {{FF0000}Джип};
+
+[YAGO_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[YAGO_VEHICLE_ABOUT]
+en {{FFCC00}The best vehicle! (Personal vehicle)};
+ru {{FFCC00}Лучшее, что есть! (Личное авто)};
+
+
+[POBEDA_VEHICLE]
+en {{FF0000}Victory};
+ru {{FF0000}Победа};
+
+[POBEDA_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[POBEDA_VEHICLE_ABOUT]
+en {{FFCC00}Not bad car. (Admin's vehicle)};
+ru {{FFCC00}Неплохое авто. (Авто админа)};
+
+
+[CABRIO_VEHICLE]
+en {{FF0000}Cabriolett};
+ru {{FF0000}Кабриолет};
+
+[CABRIO_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[CABRIO_VEHICLE_ABOUT]
+en {{FFCC00}Chic car! (Admin's vehicle)};
+ru {{FFCC00}Шикарное авто! (Авто админа)};
+
+
+[FURGON_VEHICLE]
+en {{FF0000}Van auto};
+ru {{FF0000}Фургон};
+
+[FURGON_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[FURGON_VEHICLE_ABOUT]
+en {{FFCC00}Good car.};
+ru {{FFCC00}Хорошее авто.};
+
+
+[FURGONO_VEHICLE]
+en {{FF0000}Van auto};
+ru {{FF0000}Фургончик};
+
+[FURGONO_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[FURGONO_VEHICLE_ABOUT]
+en {{FFCC00}Good car.};
+ru {{FFCC00}Хорошее авто.};
+
+
+[BIG_JEEP_VEHICLE]
+en {{FF0000}Jeep auto};
+ru {{FF0000}Небольшой джип};
+
+[BIG_JEEP_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[BIG_JEEP_VEHICLE_ABOUT]
+en {{FFCC00}Good car.};
+ru {{FFCC00}Хорошее 4-местное авто.};
+
+
+[FBI_JEEP_VEHICLE]
+en {{FF0000}FBI jeep auto};
+ru {{FF0000}Большой джип ФБР};
+
+[FBI_JEEP_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[FBI_JEEP_VEHICLE_ABOUT]
+en {{FFCC00}Good car.};
+ru {{FFCC00}Большое 4-местное авто.};
+
+
+[HUM_JEEP_VEHICLE]
+en {{FF0000}Hummer jeep auto};
+ru {{FF0000}Военный джип};
+
+[HUM_JEEP_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[HUM_JEEP_VEHICLE_ABOUT]
+en {{FFCC00}Good car.};
+ru {{FFCC00}Внедорожное 4-местное авто.};
+
+
+[BIG_PICK_VEHICLE]
+en {{FF0000}Big pickup};
+ru {{FF0000}Большой пикап};
+
+[BIG_PICK_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[BIG_PICK_VEHICLE_ABOUT]
+en {{FFCC00}Good car.};
+ru {{FFCC00}Хороший 2-местный пикап.};
+
+
+[PICK_VEHICLE]
+en {{FF0000}Good pickup};
+ru {{FF0000}Хороший пикап};
+
+[PICK_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[PICK_VEHICLE_ABOUT]
+en {{FFCC00}Good car.};
+ru {{FFCC00}Лучший пикап.};
+
+
+[MERS_VEHICLE]
+en {{FF0000}Mersedes};
+ru {{FF0000}Мерседес};
+
+[MERS_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[MERS_VEHICLE_ABOUT]
+en {{FFCC00}Good car.};
+ru {{FFCC00}Прекрасное 4-местное авто.};
+
+
+[SEDAN1_VEHICLE]
+en {{FF0000}Sedan};
+ru {{FF0000}Простой седан};
+
+[SEDAN1_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[SEDAN1_VEHICLE_ABOUT]
+en {{FFCC00}Good car.};
+ru {{FFCC00}Неплохое 4-местное авто.};
+
+
+[SEDAN2_VEHICLE]
+en {{FF0000}Sedan};
+ru {{FF0000}Очень простой седанчик};
+
+[SEDAN2_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[SEDAN2_VEHICLE_ABOUT]
+en {{FFCC00}So-so car.};
+ru {{FFCC00}Прожорливое авто с маленьким баком.};
+
+
+[SEDAN3_VEHICLE]
+en {{FF0000}Sedan};
+ru {{FF0000}Простой седанчик};
+
+[SEDAN3_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[SEDAN3_VEHICLE_ABOUT]
+en {{FFCC00}So-so car.};
+ru {{FFCC00}Прожорливое авто с небольшим баком.};
+
+
+[SEDAN4_VEHICLE]
+en {{FF0000}Sedan};
+ru {{FF0000}Простой седанчик};
+
+[SEDAN4_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[SEDAN4_VEHICLE_ABOUT]
+en {{FFCC00}So-so car.};
+ru {{FFCC00}Прожорливое авто с маленькими баком и багажником.};
+
+
+[SEDAN5_VEHICLE]
+en {{FF0000}Sedan with a hole in a gas tank};
+ru {{FF0000}Убогий седанчик с дыркой в баке};
+
+[SEDAN5_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[SEDAN5_VEHICLE_ABOUT]
+en {{FFCC00}Bad car.};
+ru {{FFCC00}Очень прожорливое авто с крохотным багажничком.};
+
+
+[SEDAN6_VEHICLE]
+en {{FF0000}Sedan};
+ru {{FF0000}Отличный седан};
+
+[SEDAN6_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[SEDAN6_VEHICLE_ABOUT]
+en {{FFCC00}So-so car.};
+ru {{FFCC00}Хорошее авто с большим баком.};
+
+
+[VAGON_VEHICLE]
+en {{FF0000}Universal};
+ru {{FF0000}Большой универсал};
+
+[VAGON_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[VAGON_VEHICLE_ABOUT]
+en {{FFCC00}Nice car.};
+ru {{FFCC00}Хороший 4-местный универсал.};
+
+
+[SCOOTER_BIKE]
+en {{FF0000}Scooter};
+ru {{FF0000}Скутер};
+
+[SCOOTER_BIKE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[SCOOTER_BIKE_ABOUT]
+en {{FFCC00}Small bike.};
+ru {{FFCC00}Крохотный байк с маленьким баком.};
+
+
+[FURGONA_VEHICLE]
+en {{FF0000}Van auto};
+ru {{FF0000}Мини фургончик};
+
+[FURGONA_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[FURGONA_VEHICLE_ABOUT]
+en {{FFCC00}Good car. (Admin's vehicle};
+ru {{FFCC00}Хорошее авто. (Авто админа)};
+
+
+[PICKUPO_VEHICLE]
+en {{FF0000}Old pickup};
+ru {{FF0000}Старый пикапчик};
+
+[PICKUPO_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[PICKUPO_VEHICLE_ABOUT]
+en {{FFCC00}Old car.};
+ru {{FFCC00}Старенькое авто.};
+
+
+[COOL_PICKUPO]
+en {{FF0000}Cool pickup};
+ru {{CC44CC}Крутой пикапчик};
+
+[COOL_PICKUPO_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[COOL_PICKUPO_ABOUT]
+en {{FFCC00}Cool car. (Admin's vehicle)};
+ru {{FFCC00}Крутое авто. (Авто админа)};
+
+
+[FF_VEHICLE]
+en {{FF0000}Supercar};
+ru {{FF0000}Супер авто};
+
+[FF_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[FF_VEHICLE_ABOUT]
+en {{FFCC00}Fast car! (Admin's vehicle)};
+ru {{FFCC00}Быстрое авто! (Авто админа)};
+
+
+[ADMIN_BIKE]
+en {{FF0000}Super moto};
+ru {{FF0000}Супер мото};
+
+[ADMIN_BIKE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[ADMIN_BIKE_ABOUT]
+en {{FFCC00}You take this moto? You are banned! (Admin's vehicle)};
+ru {{FFCC00}Увижу на этом мото - забаню! (Мото админа)};
+
+
+[SULTAN_VEHICLE]
+en {{FF0000}Subaru};
+ru {{FF0000}Субару};
+
+[SULTAN_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[SULTAN_VEHICLE_ABOUT]
+en {{FFCC00}Fast car! (Admin's vehicle)};
+ru {{FFCC00}Превосходное авто! (Авто админа)};
+
+
+[HELICOPTER_VEHICLE]
+en {{FF0000}Helicopter};
+ru {{FF0000}Вертолёт};
+
+[HELICOPTER_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[HELICOPTER_VEHICLE_ABOUT]
+en {{FFCC00}Big vehicle!};
+ru {{FFCC00}Очень прожорливая машина!};
+
+
+[HYDRA_VEHICLE]
+en {{FF0000}Hydra};
+ru {{FF0000}Гидра};
+
+[HYDRA_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[HYDRA_VEHICLE_ABOUT]
+en {{FFCC00}Fast vehicle!};
+ru {{FFCC00}Очень быстрая машина! Только для администрации!};
+
+
+[BOAT_VEHICLE]
+en {{FF0000}Boat};
+ru {{FF0000}Лодка};
+
+[BOAT_VEHICLE_VALUE]
+en {{FFFFFF}Engine condition: {00FF00}%d};
+ru {{FFFFFF}Состояние двигателя: {00FF00}%d};
+
+[BOAT_VEHICLE_ABOUT]
+en {{FFCC00}Nice boat!};
+ru {{FFCC00}Огромный бак и небольшой расход!};
+
+
+[CAR_TOOLBOX]
+en {{FF0000}Toolbox};
+ru {{FF0000}Набор инструментов};
+
+[CAR_TOOLBOX_VALUE]
+en {{FFFFFF}Condition: {00FF00}%dK};
+ru {{FFFFFF}Состояние: {00FF00}%dК};
+
+[CAR_TOOLBOX_ABOUT]
+en {{FFCC00}It's necessary thing.};
+#ru {{FFCC00}Необходим для установки двигателя в авто.};
+ru {{FFCC00}Необходим для ремонта корпуса авто.};
+
+
+[CAR_ACCUMULATOR]
+en {{FF0000}Car accumulator};
+ru {{FF0000}Аккумулятор для автомобиля};
+
+[CAR_ACCUMULATOR_VALUE]
+en {{FFFFFF}Condition: {00FF00}%d};
+ru {{FFFFFF}Состояние: {00FF00}%d};
+
+[CAR_ACCUMULATOR_ABOUT]
+en {{FFCC00}It's necessary thing.};
+ru {{FFCC00}Необходим для работы электроники в авто.};
+
+
+[AK47_AMMO]
+en {{FF0000}AK47 ammo};
+ru {{FF0000}Патроны АК47};
+
+[AK47_AMMO_VALUE]
+en {{FFFFFF}Quantity: {00FF00}%d};
+ru {{FFFFFF}Количество: {00FF00}%d {FFFFFF}шт.};
+
+[AK47_AMMO_ABOUT]
+en {{FFCC00}Caliber 7.62};
+ru {{FFCC00}Калибр 7.62};
+
+
+[M4_AMMO]
+en {{FF0000}M4 ammo};
+ru {{FF0000}Патроны для M4};
+
+[M4_AMMO_VALUE]
+en {{FFFFFF}Quantity: {00FF00}%d};
+ru {{FFFFFF}Количество: {00FF00}%d {FFFFFF}шт.};
+
+[M4_AMMO_ABOUT]
+en {{FFCC00}Caliber 5.56};
+ru {{FFCC00}Калибр 5.56};
+
+
+[RIFLE_AMMO]
+en {{FF0000}Rifle ammo};
+ru {{FF0000}Патроны для винтовки};
+
+[RIFLE_AMMO_VALUE]
+en {{FFFFFF}Quantity: {00FF00}%d};
+ru {{FFFFFF}Количество: {00FF00}%d {FFFFFF}шт.};
+
+[RIFLE_AMMO_ABOUT]
+en {{FFCC00}Nice!};
+ru {{FFCC00}Сила!};
+
+
+[PISTOL_AMMO]
+en {{FF0000}Pistol ammo};
+ru {{FF0000}Патроны для пистолета};
+
+[PISTOL_AMMO_VALUE]
+en {{FFFFFF}Quantity: {00FF00}%d};
+ru {{FFFFFF}Количество: {00FF00}%d {FFFFFF}шт.};
+
+[PISTOL_AMMO_ABOUT]
+en {{FFCC00}Caliber 45};
+ru {{FFCC00}45 калибр};
+
+
+[SHOTGUN_AMMO]
+en {{FF0000}Shotgun ammo};
+ru {{FF0000}Патроны для дробовика};
+
+[SHOTGUN_AMMO_VALUE]
+en {{FFFFFF}Quantity: {00FF00}%d};
+ru {{FFFFFF}Количество: {00FF00}%d {FFFFFF}шт.};
+
+[SHOTGUN_AMMO_ABOUT]
+en {{FFCC00}Grit};
+ru {{FFCC00}Дробь};
+
+
+[AK47_AMMO_BOOM]
+en {{FF0000}AK47 ammo};
+ru {{FF0000}Разрывные патроны АК47};
+
+[AK47_AMMO_BOOM_VALUE]
+en {{FFFFFF}Quantity: {00FF00}%d};
+ru {{FFFFFF}Количество: {00FF00}%d {FFFFFF}шт.};
+
+[AK47_AMMO_BOOM_ABOUT]
+en {{FFCC00}Caliber 7.62, TNT};
+ru {{FFCC00}Калибр 7.62, тротил};
+
+
+[M4_AMMO_BOOM]
+en {{FF0000}M4 ammo};
+ru {{FF0000}Разрывные патроны для M4};
+
+[M4_AMMO_BOOM_VALUE]
+en {{FFFFFF}Quantity: {00FF00}%d};
+ru {{FFFFFF}Количество: {00FF00}%d {FFFFFF}шт.};
+
+[M4_AMMO_BOOM_ABOUT]
+en {{FFCC00}Caliber 5.56, TNT};
+ru {{FFCC00}Калибр 5.56, тротил};
+
+
+[RIFLE_AMMO_BOOM]
+en {{FF0000}Rifle ammo};
+ru {{FF0000}Разрывные патроны для винтовки};
+
+[RIFLE_AMMO_BOOM_VALUE]
+en {{FFFFFF}Quantity: {00FF00}%d};
+ru {{FFFFFF}Количество: {00FF00}%d {FFFFFF}шт.};
+
+[RIFLE_AMMO_BOOM_ABOUT]
+en {{FFCC00}Nice! TNT};
+ru {{FFCC00}Сила! Тротил.};
+
+
+[PISTOL_AMMO_BOOM]
+en {{FF0000}Pistol ammo};
+ru {{FF0000}Разрывные патроны для пистолета};
+
+[PISTOL_AMMO_BOOM_VALUE]
+en {{FFFFFF}Quantity: {00FF00}%d};
+ru {{FFFFFF}Количество: {00FF00}%d {FFFFFF}шт.};
+
+[PISTOL_AMMO_BOOM_ABOUT]
+en {{FFCC00}Caliber 45, TNT};
+ru {{FFCC00}45 калибр, тротил};
+
+
+[SHOTGUN_AMMO_BOOM]
+en {{FF0000}Shotgun ammo};
+ru {{FF0000}Разрывные патроны для дробовика};
+
+[SHOTGUN_AMMO_BOOM_VALUE]
+en {{FFFFFF}Quantity: {00FF00}%d};
+ru {{FFFFFF}Количество: {00FF00}%d {FFFFFF}шт.};
+
+[SHOTGUN_AMMO_BOOM_ABOUT]
+en {{FFCC00}Nuclear grit};
+ru {{FFCC00}Ядерная дробь};
+
+
+[EMPTY_AK47]
+en {{FF0000}Empty AK47};
+ru {{FF0000}Разряженый АК47};
+
+[EMPTY_AK47_VALUE]
+en {{FFFFFF}Ammo: {00FF00}%d};
+ru {{FFFFFF}Патронов: {00FF00}%d {FFFFFF}шт.};
+
+[EMPTY_AK47_ABOUT]
+en {{FFCC00}Just load it!};
+ru {{FFCC00}Бесполезен, пока не заряжен.};
+
+
+[LOADED_AK47]
+en {{FF0000}Loaded AK47};
+ru {{FF0000}Заряженный АК47};
+
+[LOADED_AK47_VALUE]
+en {{FFFFFF}Ammo: {00FF00}%d};
+ru {{FFFFFF}Патронов: {00FF00}%d {FFFFFF}шт.};
+
+[LOADED_AK47_ABOUT]
+en {{FFCC00}Good!};
+ru {{FFCC00}Отлично!};
+
+
+[EMPTY_PISTOL]
+en {{FF0000}Empty pistol};
+ru {{FF0000}Разряженый пистолет};
+
+[EMPTY_PISTOL_VALUE]
+en {{FFFFFF}Ammo: {00FF00}%d};
+ru {{FFFFFF}Патронов: {00FF00}%d {FFFFFF}шт.};
+
+[EMPTY_PISTOL_ABOUT]
+en {};
+ru {};
+
+
+[EMPTY_SHOTGUN]
+en {{FF0000}Empty shotgun};
+ru {{FF0000}Разряженый дробовик};
+
+[EMPTY_SHOTGUN_VALUE]
+en {{FFFFFF}Ammo: {00FF00}%d};
+ru {{FFFFFF}Патронов: {00FF00}%d {FFFFFF}шт.};
+
+[EMPTY_SHOTGUN_ABOUT]
+en {};
+ru {};
+
+
+[LOADED_PISTOL]
+en {{FF0000}Loaded pistol};
+ru {{FF0000}Заряженный пистолет};
+
+[LOADED_PISTOL_VALUE]
+en {{FFFFFF}Ammo: {00FF00}%d};
+ru {{FFFFFF}Патронов: {00FF00}%d {FFFFFF}шт.};
+
+[LOADED_PISTOL_ABOUT]
+en {};
+ru {};
+
+
+[LOADED_SHOTGUN]
+en {{FF0000}Loaded shotgun};
+ru {{FF0000}Заряженный дробовик};
+
+[LOADED_SHOTGUN_VALUE]
+en {{FFFFFF}Ammo: {00FF00}%d};
+ru {{FFFFFF}Патронов: {00FF00}%d {FFFFFF}шт.};
+
+[LOADED_SHOTGUN_ABOUT]
+en {};
+ru {{FFCC00}Мощная вещь!};
+
+
+[EMPTY_M4]
+en {{FF0000}Empty M4};
+ru {{FF0000}Разряженая M4};
+
+[EMPTY_M4_VALUE]
+en {{FFFFFF}Ammo: {00FF00}%d};
+ru {{FFFFFF}Патронов: {00FF00}%d {FFFFFF}шт.};
+
+[EMPTY_M4_ABOUT]
+en {};
+ru {};
+
+
+[LOADED_M4]
+en {{FF0000}Loaded M4};
+ru {{FF0000}Заряженная M4};
+
+[LOADED_M4_VALUE]
+en {{FFFFFF}Ammo: {00FF00}%d};
+ru {{FFFFFF}Патронов: {00FF00}%d {FFFFFF}шт.};
+
+[LOADED_M4_ABOUT]
+en {};
+ru {};
+
+
+[EMPTY_RIFLE]
+en {{FF0000}Empty rifle};
+ru {{FF0000}Разряженая винтовка};
+
+[EMPTY_RIFLE_VALUE]
+en {{FFFFFF}Ammo: {00FF00}%d};
+ru {{FFFFFF}Патронов: {00FF00}%d {FFFFFF}шт.};
+
+[EMPTY_RIFLE_ABOUT]
+en {};
+ru {};
+
+
+[LOADED_RIFLE]
+en {{FF0000}Loaded rifle};
+ru {{FF0000}Заряженная винтовка};
+
+[LOADED_RIFLE_VALUE]
+en {{FFFFFF}Ammo: {00FF00}%d};
+ru {{FFFFFF}Патронов: {00FF00}%d {FFFFFF}шт.};
+
+[LOADED_RIFLE_ABOUT]
+en {};
+ru {};
+
+
+[EMPTY_SNIPER_RIFLE]
+en {{FF0000}Empty sniper rifle};
+ru {{FF0000}Разряженая снайперская винтовка};
+
+[EMPTY_SNIPER_RIFLE_VALUE]
+en {{FFFFFF}Ammo: {00FF00}%d};
+ru {{FFFFFF}Патронов: {00FF00}%d {FFFFFF}шт.};
+
+[EMPTY_SNIPER_RIFLE_ABOUT]
+en {};
+ru {};
+
+
+[LOADED_SNIPER_RIFLE]
+en {{FF0000}Loaded sniper rifle};
+ru {{FF0000}Заряженная снайперская винтовка};
+
+[LOADED_SNIPER_RIFLE_VALUE]
+en {{FFFFFF}Ammo: {00FF00}%d};
+ru {{FFFFFF}Патронов: {00FF00}%d {FFFFFF}шт.};
+
+[LOADED_SNIPER_RIFLE_ABOUT]
+en {};
+ru {};
+
+
+[KNIFE_WEAPON]
+en {{FF0000}Knife};
+ru {{FF0000}Нож};
+
+[KNIFE_WEAPON_VALUE]
+en {{FFFFFF}Power: {00FF00}%d};
+ru {{FFFFFF}Убойность: {00FF00}%d};
+
+[KNIFE_WEAPON_ABOUT]
+en {};
+ru {};
+
+
+[KATANA_WEAPON]
+en {{FF0000}Katana};
+ru {{FF0000}Катана};
+
+[KATANA_WEAPON_VALUE]
+en {{FFFFFF}Power: {00FF00}%d};
+ru {{FFFFFF}Убойность: {00FF00}%d};
+
+[KATANA_WEAPON_ABOUT]
+en {};
+ru {};
+
+
+[NUKE_KATANA_WEAPON]
+en {{FF0000}Nuke katana};
+ru {{FF0000}Ядерная катана};
+
+[NUKE_KATANA_WEAPON_VALUE]
+en {{FFFFFF}Power: {00FF00}%d};
+ru {{FFFFFF}Убойность: {00FF00}%d};
+
+[NUKE_KATANA_WEAPON_ABOUT]
+en {{FFFF00}Very powerfull!};
+ru {{FFFF00}Очень мощное оружие!};
+
+
+[BASEBALL_BAT]
+en {{FF0000}Bat};
+ru {{FF0000}Бита};
+
+[BASEBALL_BAT_VALUE]
+en {{FFFFFF}Power: {00FF00}%d};
+ru {{FFFFFF}Убойность: {00FF00}%d};
+
+[BASEBALL_BAT_ABOUT]
+en {};
+ru {};
+
+
+[MOLOTOV_COCTAIL]
+en {{FF0000}Molotov coctail};
+ru {{FF0000}Коктэйль Молотова};
+
+[MOLOTOV_COCTAIL_VALUE]
+en {{FFFFFF}Bottles: {00FF00}%d};
+ru {{FFFFFF}Бутылок: {00FF00}%d};
+
+[MOLOTOV_COCTAIL_ABOUT]
+en {{FFCC00}Dissapears from inventory after been taking!};
+ru {{FFCC00}Пропадает из инвентаря, когда берёшь в руку!};
+
+
+[BOTTLE_OF_LEMONADE]
+en {{FF0000}A bottle of lemonade};
+ru {{FF0000}Бутылочка лимонада};
+
+[BOTTLE_OF_LEMONADE_VALUE]
+en {{FFFFFF}Volume: {00FF00}%d {FFFFFF}ml};
+ru {{FFFFFF}Объём: {00FF00}%d {FFFFFF}мл};
+
+[BOTTLE_OF_LEMONADE_ABOUT]
+en {};
+ru {{FFCC00}Освежает!};
+
+
+[BOTTLE_OF_JUICE]
+en {{FF0000}A bottle of juice};
+ru {{FF0000}Бутылочка сока};
+
+[BOTTLE_OF_JUICE_VALUE]
+en {{FFFFFF}Volume: {00FF00}%d {FFFFFF}ml};
+ru {{FFFFFF}Объём: {00FF00}%d {FFFFFF}мл};
+
+[BOTTLE_OF_JUICE_ABOUT]
+en {};
+ru {{FFCC00}Вкусно!};
+
+
+[EMPTY_BOTTLE]
+en {{FF0000}Empty bottle};
+ru {{FF0000}Пустая бутылка};
+
+[EMPTY_BOTTLE_VALUE]
+en {{00FF00}%d {FFFFFF}ml};
+ru {{00FF00}%d {FFFFFF}мл};
+
+[EMPTY_BOTTLE_ABOUT]
+en {{FFCC00}For water and fuel (Molotov coctail).};
+ru {{FFCC00}Для воды и бензина (под коктейль Молотова).};
+
+
+[BOTTLE_OF_WATER]
+en {{FF0000}A bottle of water};
+ru {{FF0000}Бутылочка воды};
+[BOTTLE_OF_WATER_VALUE]
+en {{FFFFFF}Water volume: {00FF00}%d {FFFFFF}ml};
+ru {{FFFFFF}Объём воды: {00FF00}%d {FFFFFF}мл};
+[BOTTLE_OF_WATER_ABOUT]
+en {};
+ru {{FFCC00}Утоляет жажду.};
+
+[BOTTLE_OF_MILK]
+en {{FF0000}A bottle of milk};
+ru {{FF0000}Бутылочка молока};
+[BOTTLE_OF_MILK_VALUE]
+en {{FFFFFF}Milk volume: {00FF00}%d {FFFFFF}ml};
+ru {{FFFFFF}Объём молока: {00FF00}%d {FFFFFF}мл};
+[BOTTLE_OF_MILK_ABOUT]
+en {};
+ru {{FFCC00}Утоляет жажду.};
+
+[BOTTLE_OF_GAS]
+en {{FF0000}A bottle of gasoline};
+ru {{FF0000}Бутылка бензина};
+
+[BOTTLE_OF_GAS_VALUE]
+en {{FFFFFF}Gasoline volume: {00FF00}%d {FFFFFF}L};
+ru {{FFFFFF}Объём бензина: {00FF00}%d {FFFFFF}Л};
+
+[BOTTLE_OF_GAS_ABOUT]
+en {{FFCC00}You can create a Molotov cocktail!};
+ru {{FFCC00}Из этой штуки может получиться отличный коктейль Молотова!};
+
+
+[PIECE_OF_CLOTH]
+en {{FF0000}A piece of cloth};
+ru {{FF0000}Лоскуток};
+
+[PIECE_OF_CLOTH_VALUE]
+en {{FFFFFF}Cloth: {00FF00}%d};
+ru {{FFFFFF}Состояние ткани: {00FF00}%d};
+
+[PIECE_OF_CLOTH_ABOUT]
+en {{FFCC00}You can not create a Molotov cocktail without this thing.};
+ru {{FFCC00}Без этой штуки не получится коктейль Молотова.};
+
+
+[CAR_WHEEL]
+en {{FF0000}Car wheel};
+ru {{FF0000}Колесо};
+
+[CAR_WHEEL_VALUE]
+en {{FFFFFF}Condition: {00FF00}%d{FFFFFF}%%};
+ru {{FFFFFF}Состояние: {00FF00}%d{FFFFFF}%%};
+
+[CAR_WHEEL_ABOUT]
+en {};
+ru {};
+
+
+[CAR_ENGINE]
+en {{FF0000}Car engine};
+ru {{FF0000}Автомобильный двигатель};
+
+[CAR_ENGINE_VALUE]
+en {{FFFFFF}Condition: {00FF00}%d};
+ru {{FFFFFF}Состояние: {00FF00}%d};
+
+[CAR_ENGINE_ABOUT]
+en {};
+ru {};
+
+
+[EMPTY_JERRYCAN]
+en {{FF0000}Empty jerrycan};
+ru {{FF0000}Пустая канистра};
+
+[EMPTY_JERRYCAN_VALUE]
+en {{00FF00}%d {FFFFFF}L};
+ru {{00FF00}%d {FFFFFF}л};
+
+[EMPTY_JERRYCAN_ABOUT]
+en {};
+ru {};
+
+
+[EMPTY_BIG_BARREL]
+en {{FF0000}Empty barrel};
+ru {{FF0000}Пустая бочка};
+
+[EMPTY_BIG_BARREL_VALUE]
+en {{00FF00}%d {FFFFFF}L};
+ru {{00FF00}%d {FFFFFF}л};
+
+[EMPTY_BIG_BARREL_ABOUT]
+en {{FFCC00}For fuel and water!};
+ru {{FFCC00}В этой бочке можно перевозить бензин и воду.};
+
+
+[FULL_JERRYCAN]
+en {{FF0000}Full jerrycan of gas};
+ru {{FF0000}Канистра бензина};
+
+[FULL_JERRYCAN_VALUE]
+en {{FFFFFF}Petrol volume: {00FF00}%d {FFFFFF}L};
+ru {{FFFFFF}Объём бензина: {00FF00}%d {FFFFFF}л};
+
+[FULL_JERRYCAN_ABOUT]
+en {};
+ru {};
+
+
+[FULL_BIG_BARREL]
+en {{FF0000}Full barrel of gasoline};
+ru {{FF0000}Бочка с бензином};
+
+[FULL_BIG_BARREL_VALUE]
+en {{00FF00}%d {FFFFFF}L};
+ru {{00FF00}%d {FFFFFF}л};
+
+[FULL_BIG_BARREL_ABOUT]
+en {{FFCC00}Idealy for helicopters, tanks and etc.};
+ru {{FFCC00}Идеально для заправки вертолётов, танков и т.п.};
+
+
+[WATER_BIG_BARREL]
+en {{FF0000}Full barrel of water};
+ru {{FF0000}Бочка с водой};
+
+[WATER_BIG_BARREL_VALUE]
+en {{00FF00}%d {FFFFFF}L};
+ru {{00FF00}%d {FFFFFF}л};
+
+[WATER_BIG_BARREL_ABOUT]
+en {{FFCC00}WATER!!!};
+ru {{FFCC00}Запас воды на год!};
+
+
+[OPTICAL_SIGHT]
+en {{FF0000}The optical sight.};
+ru {{FF0000}Оптический прицел.};
+
+[OPTICAL_SIGHT_VALUE]
+en {{FFFFFF}Condition: {00FF00}%dK};
+ru {{FFFFFF}Состояние: {00FF00}%dК};
+
+[OPTICAL_SIGHT_ABOUT]
+en {{FFCC00}You can create a sniper rifle (unload before install)!};
+ru {{FFCC00}Для получения снайперки установить на разряженую винтовку.};
+
+
+[THE_BANDAGE]
+en {{FF0000}The bandage};
+ru {{FF0000}Бинт};
+
+[THE_BANDAGE_VALUE]
+en {{FFFFFF}Efficiency: {00FF00}%d};
+ru {{FFFFFF}Эффективность: {00FF00}%d};
+
+[THE_BANDAGE_ABOUT]
+en {{FFCC00}Antiwound.};
+ru {{FFCC00}Лечит раны.};
+
+
+[THE_BLOOD_PACK]
+en {{FF0000}A blood pack};
+ru {{FF0000}Пакет с кровью};
+
+[THE_BLOOD_PACK_VALUE]
+en {{FFFFFF}Efficiency: {00FF00}%d};
+ru {{FFFFFF}Эффективность: {00FF00}%d};
+
+[THE_BLOOD_PACK_ABOUT]
+en {{FFCC00}Blood.};
+ru {{FFCC00}Восстанавливает здоровье.};
+
+
+[PIECE_OF_PIZZA]
+en {{FF0000}A piece of pizza};
+ru {{FF0000}Кусочек пиццы};
+
+[PIECE_OF_PIZZA_VALUE]
+en {{FFFFFF}Mass: {00FF00}%d {FFFFFF}g};
+ru {{FFFFFF}Масса: {00FF00}%d {FFFFFF}г};
+
+[PIECE_OF_PIZZA_ABOUT]
+en {{FFCC00}Tasty!};
+ru {{FFCC00}Утоляет голод и восстанавливает здоровье.};
+
+
+[FULL_PIZZA]
+en {{FF0000}Full pizza};
+ru {{FF0000}Целая пицца};
+
+[FULL_PIZZA_VALUE]
+en {{FFFFFF}Mass: {00FF00}%d {FFFFFF}g};
+ru {{FFFFFF}Масса: {00FF00}%d {FFFFFF}г};
+
+[FULL_PIZZA_ABOUT]
+en {{FFCC00}Hearty!};
+ru {{FFCC00}Заметно утоляет голод и восстанавливает здоровье.};
+
+
+[BIG_FOOD]
+en {{FF0000}Lunch};
+ru {{FF0000}Обед};
+
+[BIG_FOOD_VALUE]
+en {{FFFFFF}Mass: {00FF00}%d {FFFFFF}g};
+ru {{FFFFFF}Масса: {00FF00}%d {FFFFFF}г};
+
+[BIG_FOOD_ABOUT]
+en {{FFCC00}Hearty!};
+ru {{FFCC00}Отлично утоляет голод и восстанавливает здоровье.};
+
+
+[APPLE_FOOD]
+en {{FF0000}Apple};
+ru {{FF0000}Яблоко};
+[APPLE_FOOD_VALUE]
+en {{FFFFFF}Mass: {00FF00}%d {FFFFFF}g};
+ru {{FFFFFF}Масса: {00FF00}%d {FFFFFF}г};
+[APPLE_FOOD_ABOUT]
+en {{FFCC00}Tasty!};
+ru {{FFCC00}Вкусно!};
+
+[BREAD_FOOD]
+en {{FF0000}Bread};
+ru {{FF0000}Хлеб};
+[BREAD_FOOD_VALUE]
+en {{FFFFFF}Mass: {00FF00}%d {FFFFFF}g};
+ru {{FFFFFF}Масса: {00FF00}%d {FFFFFF}г};
+[BREAD_FOOD_ABOUT]
+en {{FFCC00}Nice!};
+ru {{FFCC00}Превосходная пища!};
+
+[APPLE_RED_FOOD]
+en {{FF0000}Red apple};
+ru {{FF0000}Красное яблоко};
+[APPLE_RED_FOOD_VALUE]
+en {{FFFFFF}Mass: {00FF00}%d {FFFFFF}g};
+ru {{FFFFFF}Масса: {00FF00}%d {FFFFFF}г};
+[APPLE_RED_FOOD_ABOUT]
+en {{FFCC00}Tasty!};
+ru {{FFCC00}Вкусно!};
+
+[BANANA_FOOD]
+en {{FF0000}Banana};
+ru {{FF0000}Банан};
+[BANANA_FOOD_VALUE]
+en {{FFFFFF}Mass: {00FF00}%d {FFFFFF}g};
+ru {{FFFFFF}Масса: {00FF00}%d {FFFFFF}г};
+[BANANA_FOOD_ABOUT]
+en {{FFCC00}Tasty!};
+ru {{FFCC00}Вкусно!};
+
+
+[HUMBURGER_FOOD]
+en {{FF0000}Humburger};
+ru {{FF0000}Бутерброд};
+
+[HUMBURGER_FOOD_VALUE]
+en {{FFFFFF}Mass: {00FF00}%d {FFFFFF}g};
+ru {{FFFFFF}Масса: {00FF00}%d {FFFFFF}г};
+
+[HUMBURGER_FOOD_ABOUT]
+en {{FFCC00}Hearty!};
+ru {{FFCC00}Неплохо утоляет голод и восстанавливает здоровье.};
+
+
+[GPS_NAVIGATOR]
+en {{FF0000}GPS-navigator};
+ru {{FF0000}GPS-навигатор};
+
+[GPS_NAVIGATOR_VALUE]
+en {{00FF00}%dK};
+ru {{00FF00}%dК};
+
+[GPS_NAVIGATOR_ABOUT]
+en {{FFCC00}Show your coordinates.};
+ru {{FFCC00}Показывает ваши кординаты.};
+
+
+[COMPASS_BOX]
+en {{FF0000}Compass};
+ru {{FF0000}Компас};
+
+[COMPASS_BOX_VALUE]
+en {{00FF00}%dKУтпшту};
+ru {{00FF00}%dК};
+
+[COMPASS_BOX_ABOUT]
+en {};
+ru {};
+
+
+[MINI_MAGNET]
+en {{FF0000}Magnet};
+ru {{FF0000}Магнит};
+
+[MINI_MAGNET_VALUE]
+en {{00FF00}%d{FFFFFF}N};
+ru {{00FF00}%d{FFFFFF}.};
+
+[MINI_MAGNET_ABOUT]
+en {};
+ru {};
+
+
+[BASKET_BALL]
+en {{FF0000}Ball};
+ru {{FF0000}Мяч};
+
+[BASKET_BALL_VALUE]
+en {{00FF00}%d};
+ru {{00FF00}%d};
+
+[BASKET_BALL_ABOUT]
+en {};
+ru {};
+
+
+[HUGE_BAG_PACK]
+en {{FF0000}Huge backpack};
+ru {{FF0000}Огромный рюкзак};
+
+[HUGE_BAG_PACK_VALUE]
+en {{00FF00}%d {FFFFFF}items};
+ru {{FFFFFF}Вместимость (ячеек): {00FF00}%d};
+
+[HUGE_BAG_PACK_ABOUT]
+en {};
+ru {};
+
+
+[BIG_BAG_PACK]
+en {{FF0000}Big backpack};
+ru {{FF0000}Большой рюкзак};
+
+[BIG_BAG_PACK_VALUE]
+en {{00FF00}%d {FFFFFF}items};
+ru {{FFFFFF}Вместимость (ячеек): {00FF00}%d};
+
+[BIG_BAG_PACK_ABOUT]
+en {};
+ru {};
+
+[MID_BAG_PACK]
+en {{FF0000}Middle backpack};
+ru {{FF0000}Средний рюкзак};
+
+[MID_BAG_PACK_VALUE]
+en {{00FF00}%d {FFFFFF}items};
+ru {{FFFFFF}Вместимость (ячеек): {00FF00}%d};
+
+[MID_BAG_PACK_ABOUT]
+en {{FFCC00}+5 pieces of cloth = Big Backpack!};
+ru {{FFCC00}5 лоскутков сделают из этого рюкзака большой!};
+
+
+[TINY_BAG_PACK]
+en {{FF0000}Tiny backpack};
+ru {{FF0000}Крохотный рюкзачок};
+
+[TINY_BAG_PACK_VALUE]
+en {{00FF00}%d {FFFFFF}items};
+ru {{FFFFFF}Вместимость (ячеек): {00FF00}%d};
+
+[TINY_BAG_PACK_ABOUT]
+en {{FFCC00}+5 pieces of cloth = Big Backpack!};
+ru {{FFCC00}5 лоскутков сделают из этого рюкзака большой!};
+
+
+[FLOPPY_DISK]
+en {{FF0000}Floppy disk};
+ru {{FF0000}Дискета с информацией};
+
+[FLOPPY_DISK_VALUE]
+en {{00FF00}%d {FFFFFF}Mb};
+ru {{FFFFFF}Объём: {00FF00}%d {FFFFFF}МБ};
+
+[FLOPPY_DISK_ABOUT]
+en {{FFCC00}Loot information};
+ru {{FFCC00}Информация о тайниках (отмечены на карте)};
+
+
+[FIRE_WOOD]
+en {{FF0000}Fire wood};
+ru {{FF0000}Дрова};
+
+[FIRE_WOOD_VALUE]
+en {{00FF00}%d {FFFFFF}M3};
+ru {{FFFFFF}Объём: {00FF00}%d {FFFFFF}куб};
+
+[FIRE_WOOD_ABOUT]
+en {{FFCC00}You can build a fire.};
+ru {{FFCC00}Можно развести костёр.};
+
+
+[A_MATCHES]
+en {{FF0000}A matches};
+ru {{FF0000}Спички};
+
+[A_MATCHES_VALUE]
+en {{FFFFFF}Units: {00FF00}%d};
+ru {{FFFFFF}Штук: {00FF00}%d};
+
+[A_MATCHES_ABOUT]
+en {{FFCC00}You can build a fire.};
+ru {{FFCC00}Можно развести костёр.};
+
+
+[NODJA_OBJECT]
+en {{FF0000}Nodja};
+ru {{FF0000}Нодья};
+
+[NODJA_OBJECT_VALUE]
+en {{00FF00}%d {FFFFFF}M3};
+ru {{FFFFFF}Объём: {00FF00}%d {FFFFFF}куб};
+
+[NODJA_OBJECT_ABOUT]
+en {{FFCC00}You can up your temperature.};
+ru {{FFCC00}Костёр. Можно восстановить температуру тела.};
+
+
+[FIRE_EXTINGUISHER]
+en {{FF0000}Big fire extinguisher};
+ru {{FF0000}Большой огнетушитель};
+
+[FIRE_EXTINGUISHER_VALUE]
+en {{00FF00}%d {FFFFFF}L};
+ru {{FFFFFF}Объём: {00FF00}%d {FFFFFF}L};
+
+[FIRE_EXTINGUISHER_ABOUT]
+en {{FFCC00}You can extinguish a fire.};
+ru {{FFCC00}Можно потушить огонь.};
+
+
+[FIRE_EXTINGUISHER1]
+en {{FF0000}Small fire extinguisher};
+ru {{FF0000}Маленький огнетушитель};
+
+[FIRE_EXTINGUISHER1_VALUE]
+en {{00FF00}%d {FFFFFF}L};
+ru {{FFFFFF}Объём: {00FF00}%d {FFFFFF}Л};
+
+[FIRE_EXTINGUISHER1_ABOUT]
+en {{FFCC00}You can extinguish a fire.};
+ru {{FFCC00}Можно потушить огонь.};
+
+
+[EXTINGUISH_FOAM]
+en {{FF0000}Extinguish foam};
+ru {{FF0000}Пена для огнетушителя};
+
+[EXTINGUISH_FOAM_VALUE]
+en {{00FF00}%d {FFFFFF}L};
+ru {{FFFFFF}Объём: {00FF00}%d {FFFFFF}Л};
+
+[EXTINGUISH_FOAM_ABOUT]
+en {{FFCC00}You can load a fire extinguisher.};
+ru {{FFCC00}Можно заправить огнетушитель.};
+
+
+[KEY_OBJECT]
+en {{FF0000}Key};
+ru {{FF0000}Ключ};
+
+[KEY_OBJECT_VALUE]
+en {{FFFFFF}Radius: {00FF00}%d {FFFFFF}m};
+ru {{FFFFFF}Радиус действия: {00FF00}%d {FFFFFF}м};
+
+[KEY_OBJECT_ABOUT]
+en {{00FF00}NUM_4 {FFCC00}- open a gate, {00FF00}NUM_6 {FFCC00}- open a car};
+ru {{00FF00}NUM_4 {FFCC00}- открыть гараж, {00FF00}NUM_6 {FFCC00}- открыть авто};
+
+
+[PUBLIC_KEY_OBJECT]
+en {{FF0000}Public key};
+ru {{FF0000}Общий ключ};
+
+[PUBLIC_KEY_OBJECT_VALUE]
+en {{FFFFFF}Radius: {00FF00}%d {FFFFFF}m};
+ru {{FFFFFF}Радиус действия: {00FF00}%d {FFFFFF}м};
+
+[PUBLIC_KEY_OBJECT_ABOUT]
+en {{00FF00}NUM_6 {FFCC00}- open/close your car};
+ru {{00FF00}NUM_6 {FFCC00}- открыть/закрыть авто};
+
+
+[DOOR_GATE1]
+en {{FF00FF}Gate};
+ru {{FF00FF}Ворота};
+
+[DOOR_GATE1_VALUE]
+en {{FFFFFF}Radius: {00FF00}%d {FFFFFF}m};
+ru {{FFFFFF}Радиус действия ключа: {00FF00}%d {FFFFFF}м};
+
+[DOOR_GATE1_ABOUT]
+en {{00FF00}NUM_4 {FFCC00} - open/close a door};
+ru {{00FF00}NUM_4 {FFCC00} - открыть/закрыть дверь};
+
+
+[DOOR_GATE2]
+en {{FF00FF}Gate};
+ru {{FF00FF}Ворота};
+
+[DOOR_GATE2_VALUE]
+en {{FFFFFF}Radius: {00FF00}%d {FFFFFF}m};
+ru {{FFFFFF}Радиус действия ключа: {00FF00}%d {FFFFFF}м};
+
+[DOOR_GATE2_ABOUT]
+en {{00FF00}NUM_4 {FFCC00} - open/close a door};
+ru {{00FF00}NUM_4 {FFCC00} - открыть/закрыть дверь};
+
+
+[DOOR_GATE3]
+en {{FF00FF}Gate};
+ru {{FF00FF}Ворота};
+
+[DOOR_GATE3_VALUE]
+en {{FFFFFF}Radius: {00FF00}%d {FFFFFF}m};
+ru {{FFFFFF}Радиус действия ключа: {00FF00}%d {FFFFFF}м};
+
+[DOOR_GATE3_ABOUT]
+en {{00FF00}NUM_4 {FFCC00} - open/close a door};
+ru {{00FF00}NUM_4 {FFCC00} - открыть/закрыть дверь};
+
+
+[DOOR_GATE4]
+en {{FF00FF}Gate};
+ru {{FF00FF}Ворота};
+
+[DOOR_GATE4_VALUE]
+en {{FFFFFF}Radius: {00FF00}%d {FFFFFF}m};
+ru {{FFFFFF}Радиус действия ключа: {00FF00}%d {FFFFFF}м};
+
+[DOOR_GATE4_ABOUT]
+en {{00FF00}NUM_4 {FFCC00} - open/close a door};
+ru {{00FF00}NUM_4 {FFCC00} - открыть/закрыть дверь};
+
+
+[DOOR_GATE5]
+en {{FF00FF}Gate};
+ru {{FF00FF}Ворота};
+
+[DOOR_GATE5_VALUE]
+en {{FFFFFF}Radius: {00FF00}%d {FFFFFF}m};
+ru {{FFFFFF}Радиус действия ключа: {00FF00}%d {FFFFFF}м};
+
+[DOOR_GATE5_ABOUT]
+en {{00FF00}NUM_4 {FFCC00} - open/close a door};
+ru {{00FF00}NUM_4 {FFCC00} - открыть/закрыть дверь};
+
+
+[DOOR_GATE6]
+en {{FF00FF}Gate};
+ru {{FF00FF}Ворота};
+
+[DOOR_GATE6_VALUE]
+en {{FFFFFF}Radius: {00FF00}%d {FFFFFF}m};
+ru {{FFFFFF}Радиус действия ключа: {00FF00}%d {FFFFFF}м};
+
+[DOOR_GATE6_ABOUT]
+en {{00FF00}NUM_4 {FFCC00} - open/close a door};
+ru {{00FF00}NUM_4 {FFCC00} - открыть/закрыть дверь};
+
+
+[DOOR_GATE7]
+en {{FF00FF}Elevator door};
+ru {{FF00FF}Дверь лифта};
+
+[DOOR_GATE7_VALUE]
+en {{FFFFFF}Radius: {00FF00}%d {FFFFFF}m};
+ru {{FFFFFF}Радиус действия ключа: {00FF00}%d {FFFFFF}м};
+
+[DOOR_GATE7_ABOUT]
+en {{00FF00}NUM_4 {FFCC00} - open/close a door};
+ru {{00FF00}NUM_4 {FFCC00} - открыть/закрыть дверь};
+
+
+[DOOR_GATE8]
+en {{FF00FF}Elevator door};
+ru {{FF00FF}Дверь лифта};
+
+[DOOR_GATE8_VALUE]
+en {{FFFFFF}Radius: {00FF00}%d {FFFFFF}m};
+ru {{FFFFFF}Радиус действия ключа: {00FF00}%d {FFFFFF}м};
+
+[DOOR_GATE8_ABOUT]
+en {{00FF00}NUM_4 {FFCC00} - open/close a door};
+ru {{00FF00}NUM_4 {FFCC00} - открыть/закрыть дверь};
+
+
+[DOOR_GATE9]
+en {{FF00FF}Gate};
+ru {{FF00FF}Ворота};
+
+[DOOR_GATE9_VALUE]
+en {{FFFFFF}Radius: {00FF00}%d {FFFFFF}m};
+ru {{FFFFFF}Радиус действия ключа: {00FF00}%d {FFFFFF}м};
+
+[DOOR_GATE9_ABOUT]
+en {{00FF00}NUM_4 {FFCC00} - open/close a door};
+ru {{00FF00}NUM_4 {FFCC00} - открыть/закрыть дверь};
+
+
+#1-название, 2-перенос строки, 3-значение, 4-перенос строки, 5-хозяин, 6-перенос строки, 7-последний владелец, 8-перенос строки, 9-время, 10-перенос строки, 11-описание
+[OBJECT_NAME_FOR_ABOUT]
+en {Name: %s%s%s%s%s%s%s%s%s%s%s};
+ru {Название: %s%s%s%s%s%s%s%s%s%s%s};
+
+[DEFAULT_OBJECT_MEANING_STRING]
+en {Value: %d};
+ru {Значение: %d};
+
+[OBJECT_OWNER_FOR_ABOUT]
+en {{A9C4E4}Owner: {AAAA00}%s {A9C4E4}({5555FF}%s{A9C4E4})};
+ru {{A9C4E4}Хозяин: {AAAA00}%s {A9C4E4}({5555FF}%s{A9C4E4})};
+
+[OBJECT_LAST_FOR_ABOUT]
+en {{A9C4E4}Last player: {EEEEEE}%s {A9C4E4}({5555FF}%s{A9C4E4})};
+ru {{A9C4E4}Последний владелец: {EEEEEE}%s {A9C4E4}({5555FF}%s{A9C4E4})};
+
+[OBJECT_TIME_FOR_ABOUT]
+en {{A9C4E4}Last time: {DDDDDD}%s};
+ru {{A9C4E4}Когда выложил: {DDDDDD}%s};
+
+[TITLE_FOR_ABOUT_OBJECT]
+en {About thing};
+ru {Описание вещи};
+
+
+
+[ON_START_ENGINE]
+en {The engine has started!};
+ru {Двигатель завёлся!};
+
+[ON_STOP_ENGINE]
+en {The engine is stopped.};
+ru {Двигатель заглушен.};
+
+[ON_START_BROKEN_ENGINE]
+en {The engine is broken.};
+ru {Двигатель сломан.};
+
+[ON_START_NO_FUEL_ENGINE]
+en {No fuel.};
+ru {Бак пуст.};
+
+[ON_START_LOW_ACCUMUL]
+en {Low accumulator charge.};
+ru {Низкий заряд аккумулятора.};
+
+[YOU_POURED_OUT_A_GAS]
+en {You poured out a gasoline from your gas-tank into the jerrycan!};
+ru {Вы отлили часть бензина из бака в канистру!};
+
+[YOU_POURED_OFF_A_GAS]
+en {You poured off all gasoline from your gas-tank into the jerrycan!};
+ru {Вы слили весь бензин из бака в канистру!};
+
+[ALL_VEHICLE_TIRES_ARE_GOOD]
+en {All tires are good!};
+ru {Все колёса целы!};
+
+[VEHICLE_ENGINE_IS_GOOD]
+en {The engine is nice!};
+ru {Двигатель впорядке!};
+
+[VEHICLE_ACCUMULATOR_IS_GOOD]
+en {The charge is nice!};
+ru {Заряд аккумулятора в норме!};
+
+[VEHICLE_STATE_IS_GOOD]
+en {Your vehicle is fine!};
+ru {Корпус автомобиля не нуждается в ремонте!};
+
+[CANT_DO_WITH_VEHICLE]
+en {You can't do it with such kind of vehicle!};
+ru {Это невозможно сделать с таким типом транспорта!};
+
+[THE_GAS_TANK_IS_FULL]
+en {The gas-tank is full!};
+ru {Бак залит доверху!};
+
+[YOU_HAVE_NO_WOUND]
+en {You have no wound!};
+ru {Вы не ранены!};
+
+[YOU_ARE_HEALTHY]
+en {You are healthy!};
+ru {Вы абсолютно здоровы!};
+
+[YOU_ARE_NOT_HUNGRY]
+en {You are not hungry!};
+ru {Да вы, сударь, обожрались!};
+
+[YOU_ARE_NOT_THIRSTY]
+en {You are not thirsty!};
+ru {Вы не хотите пить!};
+
+[O_O_O_H_H_H]
+en {Oooohhh!};
+ru {Ооооххх!};
+
+[A_A_A_H_H_H]
+en {Aaaahhh!};
+ru {Ааааххх!};
+
+[NOT_ENOUGH_SPACE]
+en {Not enough space.};
+ru {Недостаточно места в инвентаре!};
+
+[MAX_VALUE_ACHIEVED]
+en {Maximum value is achieved!};
+ru {Достигнуто максимальное значение!};
+
+[NOT_YOUR_OBJECT]
+en {This thing is not yours!};
+ru {Это не Ваша вещь!};
+
+[THE_KEY_IS_SET]
+en {The key is set!};
+ru {Ключ подходит к этой двери!};
+
+[THE_KEY_IS_UNSET]
+en {The key is unset!};
+ru {Ключ не подходит к этой двери!};
+
+[MUTE_A_CHAT]
+en {Player %s is muted for %d hour(s)};
+ru {У игрока %s отключен чат на %d час(а)};
+
+[UNMUTE_A_CHAT]
+en {Player %s is unmuted};
+ru {У игрока %s включен чат};
+
+[TOO_SHORT_PASSWORD]
+en {The password is too short. Retry in 10 seconds, please...};
+ru {Слишком короткий пароль. Подождите 10 сек...};
+
+[WRONG_PASSWORD]
+en {Wrong password! Retry in 10 seconds, please...};
+ru {Неверный пароль! Подождите 10 сек...};
+
+[YOU_ARE_BANNED]
+en {You are banned from this server!};
+ru {Вы забанены на этом сервере!};
+
+[YOU_CANT_BE_REGISTERED]
+en {You can not be registered for about one hour.};
+ru {Из-за злостного читера пришлось отключить регистрацию. Зайдите позже.};
+
+[PLAYER_IS_UNBANNED]
+en {{00FF00}Player "%s" is unbanned!};
+ru {{00FF00}Игрок "%s" разбанен!};
+
+[PLAYER_IS_BANNED]
+en {{FF0000}Player "%s" is banned!};
+ru {{FF0000}Игрок "%s" забанен!};
+
+[PLAYER_IS_FREEZED]
+en {{FF0000}Player "%s" is freezed!};
+ru {{FF0000}Игрок "%s" заморожен!};
+
+[PLAYER_IS_UNFREEZED]
+en {{00FF00}Player "%s" is unfreezed!};
+ru {{00FF00}Игрок "%s" разморожен!};
+
+[PASSWORD_INPUT_TITLE]
+en {Login/Registration};
+ru {Вход/Регистрация};
+
+[PASSWORD_WORD]
+en {Password (6 chars or longer):};
+ru {Пароль (6 или более символов):};
+
+[YOU_ARE_WELCOME]
+en {You are welcome!};
+ru {Добро пожаловать!};
+
+[HELLO_MESSAGE]
+en {Choose your language, please};
+ru {Выберите ваш язык};
+
+[HELPLANG]
+en {{00FF00}/lang {FFCC00}- language choosing};
+ru {{00FF00}/lang {FFCC00}- выбор языка};
+
+[NEWLANG]
+en {Your language is: };
+ru {Теперь ваш язык: };
+
+[COMMAND_USAGE]
+en {Usage: };
+ru {Использование команды: };
+fr {D'utilisation: };
+uk {Застосування: };
+es {Uso: };
+cs {Použití: };
+de {Verbrauch: };
+it {D'uso: };
+pl {Zastosowanie: };
+tr {Kullanımı: };
+sr {Употреба: };
+bg {Употреба: };
+ro {Utilizare: };
+
+[HELP_HELP]
+en {{00FF00}/help {FFCC00}- the list of available commands};
+fr {{00FF00}/help {FFCC00}- la liste des commandes disponibles};
+uk {{00FF00}/help {FFCC00}- список доступних команд};
+es {{00FF00}/help {FFCC00}- la lista de los comandos disponibles};
+cs {{00FF00}/help {FFCC00}- seznam dostupných příkazů};
+de {{00FF00}/help {FFCC00}- die Liste der verfügbaren Befehle};
+it {{00FF00}/help {FFCC00}- l'elenco dei comandi disponibili};
+pl {{00FF00}/help {FFCC00}- lista dostępnych poleceń};
+ru {{00FF00}/help {FFCC00}- список доступных команд};
+tr {{00FF00}/help {FFCC00}- mevcut komutların listesi};
+sr {{00FF00}/help {FFCC00}- листа доступних команди};
+bg {{00FF00}/help {FFCC00}- списък с налични команди};
+ro {{00FF00}/help {FFCC00}- lista de comenzi disponibile};
+
+[HELP_LANG]
+en {{00FF00}/lang {FFCC00}- language choosing};
+ru {{00FF00}/lang {FFCC00}- выбор языка};
+fr {{00FF00}/lang {FFCC00}- sélectionner votre langue};
+uk {{00FF00}/lang {FFCC00}- вкажіть ваш рідну мову};
+es {{00FF00}/lang {FFCC00}- seleccione su idioma};
+cs {{00FF00}/lang {FFCC00}- vyberte svůj jazyk};
+de {{00FF00}/lang {FFCC00}- wählen Sie Ihre Sprache};
+it {{00FF00}/lang {FFCC00}- selezionare la lingua};
+pl {{00FF00}/lang {FFCC00}- wybierz język};
+tr {{00FF00}/lang {FFCC00}- dilinizi seçin};
+sr {{00FF00}/lang {FFCC00}- изаберите свој језик};
+bg {{00FF00}/lang {FFCC00}- изберете вашия език};
+ro {{00FF00}/lang {FFCC00}- alegeți limba dvs.};
+
+[HELP_SINHRO]
+en {{00FF00}/sinhro <xx> {FFCC00}- show you message on native language, xx: {FF0000}on, off};
+fr {{00FF00}/sinhro <xx> {FFCC00}- affiche le message d'origine dans le chat, xx: {FF0000}on, off};
+uk {{00FF00}/sinhro <xx> {FFCC00}- показувати оригінал повідомлення в чаті, xx: {FF0000}on, off};
+es {{00FF00}/sinhro <xx> {FFCC00}- mostrar el mensaje original en el chat, xx: {FF0000}on, off};
+cs {{00FF00}/sinhro <xx> {FFCC00}- zobrazit původní zprávu v chatu, xx: {FF0000}on, off};
+de {{00FF00}/sinhro <xx> {FFCC00}- zeigen die ursprüngliche Nachricht im Chat, xx: {FF0000}on, off};
+it {{00FF00}/sinhro <xx> {FFCC00}- mostra il messaggio originale nella chat, xx: {FF0000}on, off};
+pl {{00FF00}/sinhro <xx> {FFCC00}- pokazać oryginalną wiadomość na czacie, xx: {FF0000}on, off};
+ru {{00FF00}/sinhro <xx> {FFCC00}- показывать оригинал сообщения в чате, xx: {FF0000}on, off};
+tr {{00FF00}/sinhro <xx> {FFCC00}- sohbet orijinal mesajı göster, xx: {FF0000}on, off};
+sr {{00FF00}/sinhro <xx> {FFCC00}- показују оригиналну поруку у ћаскању, xx: {FF0000}on, off};
+bg {{00FF00}/sinhro <xx> {FFCC00}- показва оригиналното съобщение в чата, xx: {FF0000}on, off};
+ro {{00FF00}/sinhro <xx> {FFCC00}- arată mesajul original pe chat, xx: {FF0000}on, off};
+
+[HELP_SLANG]
+en {{00FF00}/slang {FFCC00}- set language for trace};
+fr {{00FF00}/slang {FFCC00}- envoyer tchat traduction de vos messages sur la langue};
+uk {{00FF00}/slang {FFCC00}- надсилати в чат переклад ваших повідомлень на цю мову};
+es {{00FF00}/slang {FFCC00}- Enviar mensaje Chat traducción de los mensajes en el idioma};
+cs {{00FF00}/slang {FFCC00}- Napsat konverzační překlad vašich zpráv na jazyku};
+de {{00FF00}/slang {FFCC00}- Chatmessage Übersetzung Ihrer Nachrichten auf der Sprache};
+it {{00FF00}/slang {FFCC00}- inviare chattare traduzione dei tuoi messaggi sul linguaggio};
+pl {{00FF00}/slang {FFCC00}- wysłać czat tłumaczenie wiadomości od języka};
+ru {{00FF00}/slang {FFCC00}- присылать вам перевод ваших сообщений на указанный язык};
+tr {{00FF00}/slang {FFCC00}- dil iletilerinizin sohbet çevirisini gönderin};
+sr {{00FF00}/slang {FFCC00}- послаћемо вам превод својих порука на жељеном језику};
+bg {{00FF00}/slang {FFCC00}- да ви изпрати превод на вашите съобщения на определен език};
+ro {{00FF00}/slang {FFCC00}- trimite o traducere a mesajelor dvs. pe limbajul specificat};
+
+[HELP_LAND]
+en {{00FF00}/land {FFCC00}- show you a language of all online players};
+ru {{00FF00}/land {FFCC00}- язык, выбранный всеми игроками на сервере};
+fr {{00FF00}/land {FFCC00}- montrer votre pays et la langue de tous les joueurs en ligne};
+uk {{00FF00}/land {FFCC00}- показати вам країну і мову всіх онлайн гравців};
+es {{00FF00}/land {FFCC00}- mostrarle país y el idioma de todos los jugadores en línea};
+cs {{00FF00}/land {FFCC00}- ukázat na zemi a jazyk všech online hráčů};
+de {{00FF00}/land {FFCC00}- zeigen Ihnen, Land und Sprache aller Online-Spieler};
+it {{00FF00}/land {FFCC00}- visualizzare Paese e la lingua di tutti i giocatori online};
+pl {{00FF00}/land {FFCC00}- pokazać kraj i język wszystkich graczy online};
+tr {{00FF00}/land {FFCC00}- Eğer ülke ve tüm online oyuncular dili gösterir};
+sr {{00FF00}/land {FFCC00}- земља и језик свих играча на серверу};
+bg {{00FF00}/land {FFCC00}- страната и езика на всички играчи на сървъра};
+ro {{00FF00}/land {FFCC00}- țara și limba de toți jucătorii de pe server};
+
+[OLD_LANG]
+en {Your language is still: };
+fr {Votre langue est toujours: };
+uk {Ваш язик все ще: };
+es {Su lenguaje es todavía: };
+cs {Váš jazyk je stále: };
+de {Ihre Sprache ist noch: };
+it {Il tuo linguaggio è ancora: };
+pl {Twój język jest nadal: };
+ru {Ваш язык остался прежним: };
+tr {Sizin diliniz hala: };
+sr {Ваш језик је остао исти: };
+bg {Вашият език е останала същата: };
+ro {Limba dvs. a rămas același: };
+
+[HELP_PM_COMMAND]
+en {{00FF00}/pm <id> [text] {FFCC00}- private message to player id};
+ru {{00FF00}/pm <id> [text] {FFCC00}- приватное сообщение игроку id};
+
+[HELP_ADM_COMMAND]
+en {{00FF00}/adm {FFCC00}- the list of server administrators};
+ru {{00FF00}/adm {FFCC00}- список администраторов сервера};
+
+[HELP_ALL_COMMANDS_ABOUT]
+en {{CCFFCC}Control:};
+ru {{CCFFCC}Управление:};
+
+[HELP_ALL_COMMANDS_Y]
+en {{00FF00}Y {FFCC00}- inventory, {00FF00}left Alt {FFCC00}- pick up items};
+ru {{00FF00}Y {FFCC00}- инвентарь, {00FF00}левый Alt {FFCC00}- поднять вещь};
+
+[HELP_ALL_COMMANDS_2]
+en {{00FF00}2 {FFCC00}- start/stop engine, {00FF00}N {FFCC00}- change weapon};
+ru {{00FF00}2 {FFCC00}- запустить/заглушить двигатель, {00FF00}N {FFCC00}- сменить оружие};
+
+[HELP_INVENTORY_BUTTONS_ABOUT]
+en {{CCFFCC}Inventory buttons:};
+ru {{CCFFCC}Кнопки инвентаря:};
+
+[HELP_INVENTORY_BUTTONS_X]
+en {{00FF00}Arrow {FFCC00}- close inventory};
+ru {{00FF00}Стрелка {FFCC00}- закрыть инвентарь};
+
+[HELP_INVENTORY_BUTTONS_Q]
+en {{00FF00}? {FFCC00}- info about selected cell};
+ru {{00FF00}? {FFCC00}- описание выбранной вещи};
+
+[HELP_INVENTORY_BUTTONS_V]
+en {{00FF00}Fist {FFCC00}- apply/assemble/load};
+ru {{00FF00}Кулак {FFCC00}- применить/собрать/зарядить};
+
+[HELP_INVENTORY_BUTTONS_M]
+en {{00FF00}Wrench {FFCC00}- disassemble/discharge weapon/pour off};
+ru {{00FF00}Гаечный ключ {FFCC00}- разобрать/вылить/разрядить};
+
+[HELP_TEST_ABOUT]
+en {{CCFFCC}Commands for testers:};
+ru {{CCFFCC}Команды для тестировщиков:};
+
+[HELP_TEST_CMDS_TP]
+en {{00FF00}/tp {FFCC00}- teleport to the special test place};
+ru {{00FF00}/tp {FFCC00}- телепортироваться на тестовую площадку};
+
+[HELP_TEST_CMDS_LIVE]
+en {{00FF00}/live {FFCC00}- restore your health};
+ru {{00FF00}/live {FFCC00}- восстановить здоровье};
+
+[HELP_TEST_CMDS_SKIN]
+en {{00FF00}/skin <skinid> {FFCC00}- change your skin};
+ru {{00FF00}/skin <skinid> {FFCC00}- сменить скин};
+
+[HELP_FAQ_INFORMATION]
+en {{CCFFCC}Inventory menu help:};
+ru {{CCFFCC}Помощь по меню инвентаря:};
+
+[HELP_DROP_SOMETHING]
+en {{00FF00}- {FFCC00}to drop something click on it, then click on the top bar;};
+ru {{00FF00}- {FFCC00}чтобы выкинуть вещь кликните на ней и на верхнем прямоугольнике;};
+
+[HELP_CHARGE_A_WEAPON]
+en {{00FF00}- {FFCC00}to charge a weapon click on it, on an ammo, then click on the fist;};
+ru {{00FF00}- {FFCC00}чтобы зарядить оружие кликните на нём, на патронах и на кулаке;};
+
+[HELP_USE_SOMETHING]
+en {{00FF00}- {FFCC00}to use something click on it, then click on the fist.};
+ru {{00FF00}- {FFCC00}чтобы использовать вещь кликните на ней и на кулаке.};
+
+[HELP_USEFULL_COMMANDS]
+en {{CCFFCC}Usefull commands:};
+ru {{CCFFCC}Полезные команды:};
+
+
+[LAND_COMMAND_RESULT_TITLE]
+en {{FFCC00}Players:};
+ru {{FFCC00}Игроки:};
+fr {{FFCC00}Joueurs:};
+uk {{FFCC00}Гравці:};
+es {{FFCC00}Jugadores:};
+cs {{FFCC00}Hráči:};
+de {{FFCC00}Spieler:};
+it {{FFCC00}Giocatori:};
+pl {{FFCC00}Gracze:};
+tr {{FFCC00}Oyuncular:};
+sr {{FFCC00}Играчи:};
+bg {{FFCC00}Играчи:};
+#ro {{FFCC00}Jucători:};
+az {{FFCC00}Oyunçular:};
+be {{FFCC00}Гульцы:};
+ca {{FFCC00}Jugadors:};
+da {{FFCC00}Spillere:};
+el {{FFCC00}Οι παίκτες:};
+et {{FFCC00}Mängijad:};
+fi {{FFCC00}Pelaajat:};
+hr {{FFCC00}Igrači:};
+hu {{FFCC00}Játékos:};
+hy {{FFCC00}Ֆուտբոլիստները:};
+lt {{FFCC00}Žaidėjai:};
+lv {{FFCC00}Spēlētāji:};
+mk {{FFCC00}Играчи:};
+nl {{FFCC00}Spelers:};
+no {{FFCC00}Spillere:};
+pt {{FFCC00}Jogadores:};
+sk {{FFCC00}Hráči:};
+sl {{FFCC00}Igralci:};
+sq {{FFCC00}Lojtarët:};
+sv {{FFCC00}Spelare:};
+
+
+[LAND_COMMAND_RESULT]
+en {{FFCC00}Player };
+ru {{FFCC00}Игрок };
+fr {{FFCC00}Joueur };
+uk {{FFCC00}Гравець };
+es {{FFCC00}Jugador };
+cs {{FFCC00}Hráč };
+de {{FFCC00}Spieler };
+it {{FFCC00}Giocatore };
+pl {{FFCC00}Gracz };
+tr {{FFCC00}Oyuncu };
+sr {{FFCC00}Плејер };
+bg {{FFCC00}Player };
+ro {{FFCC00}Jucător };
+
+[LANGUAGE_TITLE]
+en {Choose your language:};
+ru {Выберите ваш язык:};
+fr {Langue:};
+uk {Мова:};
+es {Idioma:};
+cs {Jazyk:};
+de {Sprache:};
+it {Lingua:};
+pl {Język:};
+tr {Dil:};
+sr {Одаберите језик:};
+bg {Изберете вашия език:};
+#ro {Alegeți limba dvs.:};
+az {Seçin sizin dil:};
+be {Выберыце ваш мову:};
+ca {Tria el teu idioma:};
+da {Vælg dit sprog:};
+el {Επιλέξτε τη γλώσσα σας:};
+et {Valige oma keel:};
+fi {Valitse kieli:};
+hr {Odaberite vaš jezik:};
+hu {Válassza ki a nyelvet:};
+hy {Ընտրեք ձեր լեզուն:};
+lt {Pasirinkite jūsų kalba:};
+lv {Izvēlieties jūsu valoda:};
+mk {Изберете го вашиот јазик:};
+nl {Kies uw taal:};
+no {Velg språk:};
+pt {Escolha seu idioma:};
+sk {Zvoľte si jazyk:};
+sl {Izberite svoj jezik:};
+sq {Zgjidhni gjuhën tuaj:};
+sv {Välj språk:};
+
+
+[LANGUAGE_NAME]
+en {English};
+fr {Français};
+uk {Український};
+es {Español};
+cs {Česká};
+de {Deutsch};
+it {Italiana};
+pl {Polski};
+ru {Русский};
+tr {Türk};
+sr {Сръбски};
+bg {Български};
+ro {Român};
+az {Azerbajdzjanska};
+be {Беларуская};
+ca {Catalana};
+da {Dansk};
+el {Ελληνική};
+et {Eesti};
+fi {Suomen};
+hr {Hrvatski};
+hu {Magyar};
+hy {Լեզու};
+lt {Lietuvių};
+lv {Latviski};
+mk {Македонски};
+nl {Nederlandse};
+no {Norsk};
+pt {Português};
+sk {Slovenský};
+sl {Slovenski};
+sq {Gjuha shqipe};
+sv {Svenskan};
+
+
+[LANGUAGE_STRING]
+en {{FFCC00} language {00FF00}};
+ru {{FFCC00} язык {00FF00}};
+fr {{FFCC00} langue {00FF00}};
+uk {{FFCC00} мова {00FF00}};
+es {{FFCC00} idioma {00FF00}};
+cs {{FFCC00} jazyk {00FF00}};
+de {{FFCC00} sprache {00FF00}};
+it {{FFCC00} lingua {00FF00}};
+pl {{FFCC00} język {00FF00}};
+tr {{FFCC00} dil {00FF00}};
+sr {{FFCC00} језик {FF00FF}};
+bg {{FFCC00} език {FF00FF}};
+ro {{FFCC00} limbă {FF00FF}};
+az {{FFCC00} dil {FF00FF}};
+be {{FFCC00} мова {FF00FF}};
+ca {{FFCC00} idioma {FF00FF}};
+da {{FFCC00} sprog {FF00FF}};
+el {{FFCC00} γλώσσα {FF00FF}};
+et {{FFCC00} keel {FF00FF}};
+fi {{FFCC00} kieli {FF00FF}};
+hr {{FFCC00} jezik {FF00FF}};
+hu {{FFCC00} nyelv {FF00FF}};
+hy {{FFCC00} լեզու {FF00FF}};
+lt {{FFCC00} kalba {FF00FF}};
+lv {{FFCC00} valoda {FF00FF}};
+mk {{FFCC00} јазик {FF00FF}};
+nl {{FFCC00} taal {FF00FF}};
+no {{FFCC00} språk {FF00FF}};
+pt {{FFCC00} idioma {FF00FF}};
+sk {{FFCC00} jazyk {FF00FF}};
+sl {{FFCC00} jezik {FF00FF}};
+sq {{FFCC00} gjuhë {FF00FF}};
+sv {{FFCC00} språk {FF00FF}};
+
+
+[DONT_CHANGE]
+en {Don't change};
+fr {Ne changez pas};
+uk {Не міняти};
+es {Ningún cambio};
+cs {Buďte český jazyk};
+de {Nicht ändern.};
+it {Nessun cambiamento};
+pl {Bez zmian};
+ru {Оставить Русский};
+tr {Değiştirmeyin};
+sr {Не мењајте};
+bg {Не променяйте};
+ro {Nu se schimba};
+az {Dəyişmədi};
+be {Не змяняць};
+ca {No per a canviar};
+da {Ikke til at ændre};
+el {Να μην αλλάξει};
+et {Ei muutu};
+fi {Ei muuta};
+hr {Ne mijenjati};
+hu {Ne változtassa};
+hy {Չի փոխել};
+lt {Nekeisti};
+lv {Nav jāmaina};
+mk {Не за промена на};
+nl {Niet wijzigen};
+no {Ikke for å endre};
+pt {Não mudar};
+sk {Nie zmeniť};
+sl {Ne da spremeniti};
+sq {Për të mos ndryshojë};
+sv {Inte för att ändra};
+
+
+[OK_MESSAGE]
+en {OK};
+fr {OK};
+uk {OK};
+es {OK};
+cs {OK};
+de {OK};
+it {OK};
+pl {OK};
+ru {OK};
+tr {OK};
+sr {ok};
+bg {ok};
+ro {ok};
+
+[CANCEL_MESSAGE]
+en {Cancel};
+fr {Annuler};
+uk {Скасування};
+es {Cancelar};
+cs {Zrušit};
+de {Abbrechen};
+it {Annulla};
+pl {Anuluj};
+ru {Отмена};
+tr {İptal};
+sr {Отказати};
+bg {Отказ};
+#ro {Anulează};
+az {Ləğv et};
+be {Адмена};
+ca {Cancel·lar};
+da {Annullere};
+el {Ακύρωση};
+et {Tühistamine};
+fi {Peruuta};
+hr {Otkazivanje};
+hu {Mégse};
+hy {Չեղարկել};
+lt {Atšaukti};
+lv {Atcelšana};
+mk {Откажување};
+nl {Annuleren};
+no {Avbryt};
+pt {Cancelamento};
+sk {Zrušiť};
+sl {Cancel};
+sq {Cancel};
+sv {Avbryt};
+
+
+[ERROR_MESSAGE]
+en {{FF0000}Error};
+fr {{FF0000}Erreur};
+uk {{FF0000}Помилка};
+es {{FF0000}Error};
+cs {{FF0000}Chyba};
+de {{FF0000}Error};
+it {{FF0000}Errore};
+pl {{FF0000}Błąd};
+ru {{FF0000}Ошибка};
+tr {{FF0000}Hata};
+sr {{FF0000}Грешка};
+bg {{FF0000}Грешка};
+ro {{FF0000}Eroare};
+
+[YOUR_LANGUAGE]
+en {{AAFF00}Your language is: };
+fr {{AAFF00}Votre langue: };
+uk {{AAFF00}Мову: };
+es {{AAFF00}Su idioma: };
+cs {{AAFF00}Váš jazyk: };
+de {{AAFF00}Ihre Sprache: };
+it {{AAFF00}La tua lingua: };
+pl {{AAFF00}Twój język: };
+ru {{AAFF00}Ваш язык: };
+tr {{AAFF00}Sizin dil: };
+sr {{AAFF00}Ваш језик: };
+bg {{AAFF00}Вашият език: };
+#ro {{AAFF00}Limba ta: };
+az {{AAFF00}Sizin dil: };
+be {{AAFF00}Ваш мову: };
+ca {{AAFF00}El seu idioma: };
+da {{AAFF00}Dit sprog: };
+el {{AAFF00}Τη γλώσσα σας: };
+et {{AAFF00}Oma keel: };
+fi {{AAFF00}Kieli: };
+hr {{AAFF00}Vaš jezik: };
+hu {{AAFF00}A nyelvet: };
+hy {{AAFF00}Ձեր լեզուն: };
+lt {{AAFF00}Jūsų kalba: };
+lv {{AAFF00}Jūsu valoda: };
+mk {{AAFF00}Вашиот јазик: };
+nl {{AAFF00}Uw taal: };
+no {{AAFF00}Språk: };
+pt {{AAFF00}Seu idioma: };
+sk {{AAFF00}Jazyk: };
+sl {{AAFF00}Jezik: };
+sq {{AAFF00}Gjuhën tuaj: };
+sv {{AAFF00}Ditt språk: };
+
+[TRANSLATOR_MESSAGE]
+en {{00FF00}The server is running an automatic chat translator.};
+fr {{00FF00}Le serveur exécute un traducteur automatique.};
+uk {{00FF00}На цьому сервері встановлений автоматичний перекладач.};
+es {{00FF00}El servidor ejecuta un traductor automático.};
+cs {{00FF00}Server je spuštěn automatický překladač.};
+de {{00FF00}Der Server läuft eine automatische Übersetzer.};
+it {{00FF00}Il server è in esecuzione un traduttore automatico.};
+pl {{00FF00}Serwer działa automatycznego tłumacza.};
+ru {{00FF00}На сервере работает автоматический переводчик чата.};
+tr {{00FF00}Sunucu otomatik çevirmen çalışıyor.};
+sr {{00FF00}Сервер је покренут аутоматски преводилац.};
+bg {{00FF00}Сървърът е автоматичен преводач.};
+ro {{00FF00}Serverul rulează un traducător automat.};
+
+[COMMANDS]
+en {{99FF00}The list of available commands: /help};
+fr {{99FF00}La liste des commandes disponibles: /help};
+uk {{99FF00}Список доступних команд: /help};
+es {{99FF00}La lista de los comandos disponibles: /help};
+cs {{99FF00}Seznam dostupných příkazů: /help};
+de {{99FF00}Die Liste der verfügbaren Befehle: /help};
+it {{99FF00}L'elenco dei comandi disponibili: /help};
+pl {{99FF00}Lista dostępnych poleceń: /help};
+ru {{99FF00}Список Доступных команд: /help};
+tr {{99FF00}Mevcut komutların listesi: /help};
+sr {{99FF00}Листа доступних команди: /help};
+bg {{99FF00}Списък на наличните команди: /help};
+ro {{99FF00}Lista de comenzi disponibile: /help};
+
+[NEW_LANG]
+en {Your language is: };
+fr {Maintenant votre langue: };
+uk {Тепер ваш язик: };
+es {Ahora su idioma: };
+cs {Nyní je Váš jazyk: };
+de {Ihre Sprache ist: };
+it {Ora la tua lingua: };
+pl {Teraz Twój język: };
+ru {Теперь ваш язык: };
+tr {Şimdi dil: };
+sr {Сада ваш језик: };
+bg {Сега вашия език: };
+ro {Acum limba dvs.: };
+
+[LANG_FOR_TRACE_TITLE]
+en {Language for trace: };
+fr {La langue de déboguer: };
+uk {Мову для налагодження: };
+es {El idioma para depurar: };
+cs {Jazyk pro ladění: };
+de {Sprache zu debuggen: };
+it {La lingua per eseguire il debug: };
+pl {Język do debugowania: };
+ru {Язык для отладки: };
+tr {Için dili ayarlayın: };
+sr {Језик за дебаговање: };
+bg {Език за отстраняване на грешки: };
+ro {Limba pentru depanare: };
+
+[LANG_FOR_TRACE]
+en {You set the language to trace: };
+fr {Vous définissez la langue de déboguer: };
+uk {Ви встановили мову для налагодження: };
+es {Establece el idioma para depurar: };
+cs {Můžete nastavit jazyk pro ladění: };
+de {Stellen Sie die Sprache zu debuggen: };
+it {È possibile impostare la lingua per eseguire il debug: };
+pl {Wybrać język do debugowania: };
+ru {Вы установили язык для отладки: };
+tr {Sen hata ayıklamak için dili ayarlayın: };
+sr {Ви поставите језик за дебуг: };
+bg {Можете да зададете език за отстраняване на грешки: };
+ro {Puteți seta limba pentru a depana: };
+
+[NO_LANG_FOR_TRACE]
+en {Debugging is off.};
+fr {Le débogage est désactivé.};
+uk {Мова для налагодження не встановлений.};
+es {La depuración es apagado.};
+cs {Ladění je vypnutý.};
+de {Debugging ist ausgeschaltet.};
+it {Il debugging è spento.};
+pl {Debugowanie jest wyłączone.};
+ru {Язык для отладки не установлен.};
+tr {Hata ayıklama kapalı.};
+sr {Језик је подешен да дебуг.};
+bg {Език е настроен за отстраняване на грешки.};
+ro {Limba este setat pentru a depana.};
+
+[SINHRO_IS_ON]
+en {Original messages are enabled.};
+fr {Le message d'origine inclus.};
+uk {Оригінальні повідомлення включені.};
+es {El mensaje original incluido.};
+cs {Původní zpráva v ceně.};
+de {Original-Nachrichten ist.};
+it {Messaggi originali rappresenta il.};
+pl {Oryginalna wiadomość włączone.};
+ru {Оригинальные сообщения включены.};
+tr {Orijinal mesajı dahil.};
+sr {Оригиналну поруку укључени.};
+bg {Оригиналното съобщение.};
+ro {Mesajul inițial inclus.};
+
+[SINHRO_IS_OFF]
+en {Original messages are disabled.};
+fr {Les messages d'origine sont désactivés.};
+uk {Оригінальні повідомлення вимкнені.};
+es {Los mensajes originales están apagados.};
+cs {Původní zprávy jsou vypnuty.};
+de {Die ursprünglichen Nachrichten werden ausgeschaltet.};
+it {I messaggi originali sono spenti.};
+pl {Oryginalne wiadomości są wyłączone.};
+ru {Оригинальные сообщения отключены.};
+tr {Orijinal mesajlar kapatılır.};
+sr {Оригинални поруке су онемогућене.};
+bg {Първоначалните съобщения са забранени.};
+ro {Mesajele de originale sunt dezactivate.};
+
+[AUTO_TRANSLATOR_IS_ON]
+en {Automatic translator is on.};
+fr {Vous avez inclus un traducteur automatique.};
+uk {Ви включили автоматичний перекладач.};
+es {Ha incluido un traductor automático.};
+cs {Ty zahrnovaly automatické překladatel.};
+de {Sie enthalten einen automatischen Übersetzer.};
+it {È incluso un traduttore automatico.};
+pl {Chcesz dołączyć automatycznego tłumacza.};
+ru {Вы включили автоматический переводчик.};
+tr {Siz otomatik çevirmen dahil.};
+sr {Можете укључити аутоматско преводиоца.};
+bg {Включва автоматичен преводач.};
+ro {Ați inclus un translator automat.};
+
+[AUTO_TRANSLATOR_IS_OFF]
+en {Automatic translator is off.};
+fr {Vous éteignez le traducteur automatique.};
+uk {Ви вимкнули автоматичний перекладач.};
+es {Usted apaga el traductor automático.};
+cs {Můžete vypnout automatické překladatele.};
+de {Sie schalten Sie den automatischen Übersetzer.};
+it {Si disattiva il traduttore automatico.};
+pl {Wyłączenie automatycznego tłumacza.};
+ru {Автоматический перевод отключен.};
+tr {Siz otomatik çevirmen kapatın.};
+sr {Аутоматски превод је онемогућено.};
+bg {Автоматичният превод е забранено.};
+ro {Traducerea automată este dezactivată.};
+
+[CHAT_TIME_IS_ON]
+en {Chat time is on.};
+ru {Вы включили показ времени в чате.};
+
+[CHAT_TIME_IS_OFF]
+en {Chat time is off.};
+ru {Показ времени в чате отключен.};
+
+[COUNTRY_COMMAND_RESULT]
+en {ip: %s, country: %s};
+fr {ip: %s, état: %s};
+uk {ip: %s, країна: %s};
+es {ip: %s, país: %s};
+cs {ip: %s, země: %s};
+de {ip: %s, Land: %s};
+it {ip: %s, paese: %s};
+pl {ip: %s, kraj: %s};
+ru {Для ip: %s обозначение страны: %s};
+tr {ip: %s, ülke: %s};
+sr {ip: %s, земља: %s};
+bg {ip: %s, държава: %s};
+ro {ip: %s, țară: %s};
+
+[COUNTRY_NAME]
+en {{FFCC00}: country {FF00FF}};
+fr {{FFCC00}: état {FF00FF}};
+uk {{FFCC00}: країна {FF00FF}};
+es {{FFCC00}: país {FF00FF}};
+cs {{FFCC00}: země {FF00FF}};
+de {{FFCC00}: Land {FF00FF}};
+it {{FFCC00}: paese {FF00FF}};
+pl {{FFCC00}: kraj {FF00FF}};
+ru {{FFCC00}: страна {FF00FF}};
+tr {{FFCC00}: ülke {FF00FF}};
+sr {{FFCC00}: земља{FF00FF}};
+bg {{FFCC00}: страна{FF00FF}};
+#ro {{FFCC00}: țară{FF00FF}};
+az {{FFCC00}: ölkə {FF00FF}};
+be {{FFCC00}: краіна {FF00FF}};
+ca {{FFCC00}: país {FF00FF}};
+da {{FFCC00}: land {FF00FF}};
+el {{FFCC00}: χώρα {FF00FF}};
+et {{FFCC00}: riik {FF00FF}};
+fi {{FFCC00}: maa {FF00FF}};
+hr {{FFCC00}: zemlja {FF00FF}};
+hu {{FFCC00}: ország {FF00FF}};
+hy {{FFCC00}: երկիր {FF00FF}};
+lt {{FFCC00}: šalis {FF00FF}};
+lv {{FFCC00}: valsts {FF00FF}};
+mk {{FFCC00}: земја {FF00FF}};
+nl {{FFCC00}: land {FF00FF}};
+no {{FFCC00}: land {FF00FF}};
+pt {{FFCC00}: país {FF00FF}};
+sk {{FFCC00}: krajina {FF00FF}};
+sl {{FFCC00}: država {FF00FF}};
+sq {{FFCC00}: vend {FF00FF}};
+sv {{FFCC00}: land {FF00FF}};
+
